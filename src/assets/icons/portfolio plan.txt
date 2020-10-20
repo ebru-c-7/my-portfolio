@@ -1,0 +1,10 @@
+1. who am i and goals: <i class="fas fa-rocket"></i>, <i class="fas fa-question-circle"></i>
+2. education & certification : <i class="fas fa-graduation-cap"></i>
+3. skills: <i class="fas fa-tools"></i>, 
+4. projects: <i class="fas fa-laptop-code"></i>,  <i class="fas fa-tasks"></i>,
+
+5. contact: <i class="fas fa-address-card"></i>, <i class="far fa-address-card"></i>
+6. save this portfolio: <i class="far fa-save"></i>
+send e-mail to the person of the cv
+
+fontawesome
