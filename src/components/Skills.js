@@ -13,6 +13,7 @@ const Skills = (props) => {
       </Modal.Header>
       <Modal.Body>
         <CustomFigure data={skillsList.project}>My Project-Based Skills</CustomFigure>
+        <hr />
         <CustomFigure data={skillsList.basic}>General Knowledge</CustomFigure>
       </Modal.Body>
     </React.Fragment>

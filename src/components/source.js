@@ -5,11 +5,19 @@ import logoCss3 from "../assets/icons/tools/css3.svg";
 import logoHtml5 from "../assets/icons/tools/html5.svg";
 import logoJs from "../assets/icons/tools/js.svg";
 import logoReact from "../assets/icons/tools/react.svg";
-import logoMern from "../assets/icons/tools/mern3.png";
+import logoMern from "../assets/icons/tools/mern4.png";
 import logobootstrap from "../assets/icons/tools/bootstrap.svg";
 import logojq from "../assets/icons/tools/jquery.svg";
 import logosql from "../assets/icons/tools/mysql.svg";
 import logosass from "../assets/icons/tools/sass.svg";
+import logogithub from "../assets/icons/tools/github.svg";
+import logogit from "../assets/icons/tools/git.svg";
+
+import imdb from "../assets/projects/imdb.png";
+import shoppingList from "../assets/projects/shopping-list.JPG";
+import missions from "../assets/projects/missions.png";
+import coffee from "../assets/projects/coffee.png";
+import ebc from "../assets/projects/ebc.png";
 
 export const trainingList = {
   education: [
@@ -76,65 +84,116 @@ export const skillsList = {
   basic: [
     { logo: logosass, description: "SASS/SCSS" },
     { logo: logosql, description: "MySQL" },
+    { logo: logogithub, description: "github" },
+    { logo: logogit, description: "git" },
   ],
 };
 
 export const projectList = [
   {
     name: "Portfolio",
-    description: "",
-    codeURL: "",
+    description: 
+    `This portfolio page. 
+    No sign up or log in is required.
+    Created with React and Bootstrap.`,
+    codeURL: "https://github.com/ebru-c-7/my-portfolio",
     link: "",
     logo: "",
-    tools: [logoReact, logoCss3, logoHtml5, logobootstrap ]
+    tools: [
+      { name: "React", logo: logoReact },
+      { name: "CSS3", logo: logoCss3 },
+      { name: "HTML5", logo: logoHtml5 },
+      { name: "Bootstrap", logo: logobootstrap },
+    ],
   },
   {
-    name: "E-Business Card",
-    description: "A website for creating and collecting business cards.",
-    codeURL: "",
+    name: "E-Business Card (including Backend)",
+    description:
+      `A website for creating and collecting online business cards.
+      Sign up or log in with email: test3@test.com, password: 1234567.
+      For backend and frontend, MongoDB, Express, React, Node, and Bootstrap are used.`,
+    codeURL: "https://github.com/ebru-c-7/Project_E_Business_Card/",
     link: "https://ebcards.web.app/home",
-    logo: "",
-    tools: [logoMern, logoCss3, logoHtml5, logobootstrap ]
+    logo: ebc,
+    tools: [
+      { name: "MERN", logo: logoMern },
+      { name: "CSS3", logo: logoCss3 },
+      { name: "HTML5", logo: logoHtml5 },
+      { name: "Bootstrap", logo: logobootstrap },
+    ],
   },
   {
     name: "Coffee Here",
-    description: "starbucks order page sample with React",
+    description: 
+      `A sample starbucks order page designed for self-order kiosks.
+      After completing order, sign up or log in with email: test3@test.com, password: 1234567
+      Recreated with React.`,
     codeURL: "https://github.com/ebru-c-7/Project-Coffee-React",
     link: "https://coffee-here-now-react.web.app",
-    logo: "",
-    tools: [logoReact, logoCss3, logoHtml5 ]
+    logo: coffee,
+    tools: [
+      { name: "React", logo: logoReact },
+      { name: "CSS3", logo: logoCss3 },
+      { name: "HTML5", logo: logoHtml5 },
+    ],
   },
   {
     name: "Daily Missions",
-    description: "A daily task organizer with a web component 'message box'",
+    description:
+      `A daily task organizer page together with a message box web component.
+     No sign up or log in is required.
+      Created with vanilla JS, CSS3, and HTML5.`,
     codeURL: "https://github.com/ebru-c-7/Project_Missions",
     link: "https://daily-missions.web.app",
-    logo: "",
-    tools: [logoJs, logoCss3, logoHtml5]
+    logo: missions,
+    tools: [
+      { name: "JavaScript", logo: logoJs },
+      { name: "CSS3", logo: logoCss3 },
+      { name: "HTML5", logo: logoHtml5 },
+    ],
   },
   {
     name: "Shopping List",
-    description: "A jQuery project: shopping list",
+    description:
+      `Asimple shopping list page using jQuery fully.
+      No sign up or log in is required.
+      Created with jQuery, CSS3, and HTML5.`,
     codeURL: "https://github.com/ebru-c-7/Project_Shopping_List",
     link: "https://project-shopping-list-07.web.app/",
-    logo: "",
-    tools: [logojq, logoCss3, logoHtml5]
+    logo: shoppingList,
+    tools: [
+      { name: "jQuery", logo: logojq },
+      { name: "CSS3", logo: logoCss3 },
+      { name: "HTML5", logo: logoHtml5 },
+    ],
   },
   {
     name: "IMDB",
-    description: "A chrome extension for adding 'search on imdb' option to the context menu",
+    description:
+      `A chrome extension to add 'search on imdb' option to the context menu for easy query.
+      Get access to it with browser context menu after selecting any text on any website.
+      Created with JS.`,
     codeURL: "https://github.com/ebru-c-7/Project_imdb",
     link: "",
-    logo: "",
-    tools: [logoJs]
+    logo: imdb,
+    tools: [
+      { name: "JavaScript", logo: logoJs },
+      { name: "CSS3", logo: logoCss3 },
+    ],
   },
   {
     name: "Coffee Here",
-    description: "A sample starbucks order page (vanilla JavaScript)",
+    description:
+      `A sample starbucks order page designed for self-order kiosks. 
+      No sign up or log in is required.
+      Created with vanilla JS, CSS3, and HTML5.`,
     codeURL: "https://github.com/ebru-c-7/Project_Coffee",
     link: "https://coffee-here-now.web.app",
-    logo: "",
-    tools: [logoJs, logoCss3, logoHtml5]
+    logo: coffee,
+    tools: [
+      { name: "JavaScript", logo: logoJs },
+      { name: "CSS3", logo: logoCss3 },
+      { name: "HTML5", logo: logoHtml5 },
+    ],
   },
-
 ];

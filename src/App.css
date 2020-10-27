@@ -82,18 +82,29 @@ div>h5 {
 }
 
 .custom-card {
-  display: inline-block;
-  width: 13rem;
+  /* display: inline-block; */
+  width: 14rem;
+  /* border-color: #3194c5d1; */
+  /* border: 2px solid #3194c5d1; */
+  box-shadow: 3px 3px 4px #9cd45c;
+}
+
+.custom-card p {
+  white-space: pre-line;
+}
+
+code {
+  cursor: pointer;
 }
 
 .card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 10px;
+  row-gap: 20px;
   /* column-gap: 10px; */
   justify-content: space-between;
-  align-items: baseline;
+  align-items: stretch;
 
 }
 
@@ -114,11 +125,15 @@ div>h5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  grid-row-gap: 10px;
-  row-gap: 10px;
+  row-gap: 20px;
   column-gap: 10px;
-  justify-content: flex-start;
   justify-content: space-between;
+  align-items: stretch;
+  display: inline-block;
+}
+
+.figure {
+  margin: 0 1rem;
 }
 
 .figure-img {
@@ -126,6 +141,30 @@ div>h5 {
   height: 140px;
 }
 
+.project-logo {
+  height: 120px;
+  width: auto;
+  margin: 5px auto;
+  display: block;
+  max-width: 90%;
+}
+.about-profile {
+  /* display: block; 
+  margin: 0 auto; */
+  border-radius: 50%;
+  width: 10rem;
+  float: left;
+  margin: 5px 15px;
+}
+
+
+.about-social {
+  margin: 25px;
+}
+
+p {
+  text-align: justify;
+}
 
 @keyframes App-logo-spin {
   from {

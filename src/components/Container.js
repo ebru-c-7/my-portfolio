@@ -48,7 +48,7 @@ const Container = () => {
           My Skills
         </MenuItem>
       </div>
-      <CustomModal type={modal} close={modalCloseHandler} />
+      <CustomModal change={modalHandler} type={modal} close={modalCloseHandler} />
     </React.Fragment>
   );
 }
