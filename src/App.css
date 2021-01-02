@@ -81,6 +81,10 @@ div>h5 {
   text-align: center;
 }
 
+.modal-footer {
+  justify-content: start;
+}
+
 .custom-card {
   /* display: inline-block; */
   width: 14rem;

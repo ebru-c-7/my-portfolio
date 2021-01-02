@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Portfolio",
+    "description": 
+    "This portfolio page. No sign up or log in is required. Created with React and Bootstrap.",
+    "codeURL": "https://github.com/ebru-c-7/my-portfolio",
+    "link": "",
+    "logo": "",
+    "tools": [
+      { "name": "React", "logo": "/static/media/react.d8cf7740.svg" },
+      { "name": "CSS3", "logo": "/static/media/css3.38445e8d.svg" },
+      { "name": "HTML5", "logo": "/static/media/html5.99325d4e.svg" },
+      { "name": "Bootstrap", "logo": "/static/media/bootstrap.45885175.svg" }
+    ]
+  },
+  {
+    "name": "E-Business Card (including Backend)",
+    "description":
+      "A website for creating and collecting online business cards. Sign up or log in with email: test3@test.com, password: 1234567. For backend and frontend, MongoDB, Express, React, Node, and Bootstrap are used.",
+    "codeURL": "https://github.com/ebru-c-7/Project_E_Business_Card/",
+    "link": "https://ebcards.web.app/home",
+    "logo": "/static/media/ebc.5487c5a1.png",
+    "tools": [
+      { "name": "MERN", "logo": "/static/media/mern4.87766e74.png" },
+      { "name": "CSS3", "logo": "/static/media/css3.38445e8d.svg" },
+      { "name": "HTML5", "logo": "/static/media/html5.99325d4e.svg" },
+      { "name": "Bootstrap", "logo": "/static/media/bootstrap.45885175.svg" }
+    ]
+  },
+  {
+    "name": "Coffee Here",
+    "description": 
+      "A sample starbucks order page designed for self-order kiosks. After completing order, sign up or log in with email: test3@test.com, password: 1234567. Recreated with React.",
+    "codeURL": "https://github.com/ebru-c-7/Project-Coffee-React",
+    "link": "https://coffee-here-now-react.web.app",
+    "logo": "/static/media/coffee.cc5358bf.png",
+    "tools": [
+      { "name": "React", "logo": "/static/media/react.d8cf7740.svg" },
+      { "name": "CSS3", "logo": "/static/media/css3.38445e8d.svg" },
+      { "name": "HTML5", "logo": "/static/media/html5.99325d4e.svg" }
+    ]
+  },
+  {
+    "name": "Daily Missions",
+    "description":
+      "A daily task organizer page together with a message box web component. No sign up or log in is required.Created with vanilla JS, CSS3, and HTML5.",
+    "codeURL": "https://github.com/ebru-c-7/Project_Missions",
+    "link": "https://daily-missions.web.app",
+    "logo": "/static/media/missions.png",
+    "tools": [
+      { "name": "JavaScript", "logo": "/static/media/js.8db9cd68.svg" },
+      { "name": "CSS3", "logo": "/static/media/css3.38445e8d.svg" },
+      { "name": "HTML5", "logo": "/static/media/html5.99325d4e.svg" }
+    ]
+  },
+  {
+    "name": "Shopping List",
+    "description":
+    "A simple shopping list page using jQuery fully. No sign up or log in is required. Created with jQuery, CSS3, and HTML5.",
+    "codeURL": "https://github.com/ebru-c-7/Project_Shopping_List",
+    "link": "https://project-shopping-list-07.web.app/",
+    "logo": "/static/media/shopping-list.b25bb2e8.JPG",
+    "tools": [
+      { "name": "jQuery", "logo": "/static/media/jquery.8ec9bacf.svg" },
+      { "name": "CSS3", "logo": "/static/media/css3.38445e8d.svg" },
+      { "name": "HTML5", "logo": "/static/media/html5.99325d4e.svg" }
+    ]
+  },
+  {
+    "name": "IMDB",
+    "description":
+      "A chrome extension to add 'search on imdb' option to the context menu for easy query. Get access to it with browser context menu after selecting any text on any website. Created with JS.`",
+    "codeURL": "https://github.com/ebru-c-7/Project_imdb",
+    "link": "",
+    "logo": "/static/media/",
+    "tools": [
+      { "name": "JavaScript", "logo": "/static/media/js.8db9cd68.svg" },
+      { "name": "CSS3", "logo": "/static/media/css3.38445e8d.svg" }
+    ]
+  },
+  {
+    "name": "Coffee Here",
+    "description":
+      "A sample starbucks order page designed for self-order kiosks. No sign up or log in is required. Created with vanilla JS, CSS3, and HTML5.",
+    "codeURL": "https://github.com/ebru-c-7/Project_Coffee",
+    "link": "https://coffee-here-now.web.app",
+    "logo": "/static/media/coffee.cc5358bf.png",
+    "tools": [
+      { "name": "JavaScript", "logo": "/static/media/js.8db9cd68.svg" },
+      { "name": "CSS3", "logo": "/static/media/css3.38445e8d.svg" },
+      { "name": "HTML5", "logo": "/static/media/html5.99325d4e.svg" }
+    ]
+  }
+]

@@ -14,11 +14,12 @@ const CustomCard = (props) => {
           <Card.Body>
             <Card.Title>{pro.name}</Card.Title>
             <Card.Text>{pro.description}</Card.Text>
-          </Card.Body>
-          <Card.Body>
+          </Card.Body> 
+          <Card.Footer>
             {!!pro.codeURL && <Card.Link target="blank" href={pro.codeURL}>Code</Card.Link>}
             {!!pro.link && <Card.Link target="blank" href={pro.link}>Live</Card.Link>}
-          </Card.Body>
+            {!!pro.document && <Card.Link target="blank" href={pro.document}>Live</Card.Link>}
+          </Card.Footer>
           <Card.Footer>
             <Tools data={pro.tools} />
           </Card.Footer>
