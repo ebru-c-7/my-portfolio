@@ -4,7 +4,11 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "portfolio-ebru-c-7-export.json",
+      "portfolio-ebru-c-7-project-export.json",
+      "portfolio-ebru-c-7-skillsList-export.json",
+      "portfolio-ebru-c-7-training-export.json"
     ],
     "rewrites": [
       {
