@@ -18,7 +18,7 @@ const CustomCard = (props) => {
           <Card.Footer>
             {!!pro.codeURL && <Card.Link target="blank" href={pro.codeURL}>Code</Card.Link>}
             {!!pro.link && <Card.Link target="blank" href={pro.link}>Live</Card.Link>}
-            {!!pro.document && <Card.Link target="blank" href={pro.document}>Live</Card.Link>}
+            {!!pro.document && <Card.Link target="blank" href={pro.document}>Doc</Card.Link>}
           </Card.Footer>
           <Card.Footer>
             <Tools data={pro.tools} />

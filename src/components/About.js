@@ -19,16 +19,17 @@ const About = (props) => {
           I have provided the advisory and audit (post-control) services at EY
           Turkey to the global clients for almost 6 years after graduation.
           However, at the end of this long and fruitful career, I have decided
-          to pursue a different path and started to work to become a front-end
+          to pursue a different path and started to work to become a web
           developer after leaving EY as the "Global Trade Manager".
         </p>
         <p>
           I have completed the double major program with MIS department in the
           university and participated in the system design and management of
-          multiple projects to get my degree. Currently, I have a medium level
-          of knowledge of HTML, CSS, and JavaScript languages and actively work
-          on the projects with the libraries JQuery, React, Bootstrap and more
-          (Check out{" "}
+          multiple projects to get my degree.
+        </p>
+        <p>
+          In the projects I have created, React, Jquery, Bootstrap, CSS3, HTML5
+          for Frontend; Node.js (REST API) for Backend are used (Check out{" "}
           <code onClick={props.change.bind(null, "skills")}>my skills</code>{" "}
           section here).
         </p>
