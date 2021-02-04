@@ -161,7 +161,7 @@ p {
   text-align: justify;
 }
 
-@media(max-width: 700px), (max-height: 550px) {
+@media(max-width: 850px), (max-height: 570px) {
   .App {
       width: 90vw;
       border-radius: 0;
@@ -202,11 +202,11 @@ p {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 750px !important;
+    max-width: 850px !important;
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 650px) {
   .modal-dialog {
     margin: 0px !important;
   }
@@ -219,6 +219,9 @@ p {
     width: 100%;
   }
 
+  .project-logo {
+    height: 80px;
+  }
   /* .figure-img {
     width: 70px; 
     height: 70px;
